@@ -8,12 +8,13 @@ import Header from "../components/Header/index"
 
 import "./aboutpage.css"
 import BodyTop from "../components/BodyTopAbout/BodyTop"
+import BodyCenter from "../components/BodyCenter/BodyCenter"
 
-
-const AboutPage = props => {
+function AboutPage () {
     return <Container maxWidth={'xl'}  >
         <Box classNam="body">  
            <BodyTop/>
+           <BodyCenter/>
            <Feature />
         </Box>
     </Container>

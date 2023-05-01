@@ -1,0 +1,19 @@
+.boxone{
+                /* Frame 870 */
+
+
+        box-sizing: border-box;
+
+        width: 270px;
+        height: 230px;
+
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        
+}

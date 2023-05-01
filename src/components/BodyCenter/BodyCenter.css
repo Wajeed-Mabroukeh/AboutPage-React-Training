@@ -1,0 +1,16 @@
+.bodycenter{
+    display: flex;
+    flex-direction: row;
+    margin: 140px 135px ;
+   gap: 1em;
+  
+}
+
+
+@media screen and (max-width:1280px) {
+    .bodycenter{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

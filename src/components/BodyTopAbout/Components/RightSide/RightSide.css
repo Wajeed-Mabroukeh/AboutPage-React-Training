@@ -1,6 +1,6 @@
 .rightSide{
     position: relative;
-    width: 837px;
+    width: 537px;
     height: 609px;
     left: 75px;
     top: 0px;
@@ -12,6 +12,7 @@
         position: relative;
         top:120px;
         margin-bottom: 150px;
+        margin-left: 140px;
         text-align: left;
     }
     .rightSide img{
