@@ -1,0 +1,20 @@
+.rightSide{
+    position: relative;
+    width: 837px;
+    height: 609px;
+    left: 75px;
+    top: 0px;
+}
+
+
+@media screen and (max-width:1280px) {
+    .RightSide-container{
+        position: relative;
+        top:120px;
+        margin-bottom: 150px;
+        text-align: left;
+    }
+    .rightSide img{
+        flex-direction: column;
+    }
+}

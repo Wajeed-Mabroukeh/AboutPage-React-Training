@@ -1,0 +1,103 @@
+.left{
+   display: flex;
+   flex-direction: column;
+}
+
+.leftSide{
+
+        position: relative;
+        width: 400px;
+        height: 64px;
+    
+     
+        /* Heading/54PX SemiBold */
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 64px;
+        /* identical to box height, or 119% */
+
+        text-align: left;
+        letter-spacing: 0.06em;
+
+        color: #000000;
+
+
+
+        
+}
+
+
+.leftSidet1{
+
+        position: relative;
+        top: 90px;
+        width: 525px;
+        height: 130px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+
+        /* Text2 */
+
+        color: #000000;
+        text-align: left;
+
+        /* Inside auto layout */
+
+
+}
+
+.Typography{
+    padding: 0;
+}
+
+.leftSidet2{
+    position: relative;
+    top: 100px;
+            width: 505px;
+        height: 78px;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        text-align: left;
+
+        /* Text2 */
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+
+        
+}
+
+
+@media screen and (max-width:1280px) {
+        .left{
+            flex-direction: column;
+            align-items: center;
+            margin-right: 100px;
+        }
+
+        .leftSide{
+                right: 70px;
+        }
+        
+    }
+
