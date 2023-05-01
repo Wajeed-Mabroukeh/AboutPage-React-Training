@@ -1,0 +1,11 @@
+.iconc{
+    /* Auto layout */  
+        width: 104px;
+        height: 44px; 
+        margin-top: 50px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}

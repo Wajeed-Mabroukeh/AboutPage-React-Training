@@ -1,0 +1,26 @@
+.subtitleC{
+    position: relative;
+    bottom: 60px;
+            width: 167px;
+        height: 24px;
+
+        /* Title/16PX Regular */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+        text-align: left;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+       
+}

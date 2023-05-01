@@ -1,0 +1,4 @@
+.viewcolumn{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.titlec{
+            width: 230px;
+        height: 30px;
+
+        /* Heading/32PX Medium */
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 30px;
+        /* identical to box height, or 94% */
+
+        letter-spacing: 0.04em;
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        text-align: left;
+        margin-top: 32px;
+}

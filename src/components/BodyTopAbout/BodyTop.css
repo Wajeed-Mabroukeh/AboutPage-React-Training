@@ -4,6 +4,15 @@
     margin-top: 143px;
     margin-left: 135px;
 }
+.c{
+    display: flex;
+    flex-direction: column; 
+}
+.link{
+   position: relative;
+   top: 60px;
+   
+}
 
 @media screen and (max-width:1280px) {
     .BodyTop{
@@ -14,3 +23,4 @@
         flex-direction: column;
     }
 }
+

@@ -1,10 +1,18 @@
 import './style.css'
-const Circle = props => {
-    return <div className='circle'>
-        <div className='body'>
-            {props.icon}
-        </div>
-    </div>
-}
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+
+    const Circle = props => {
+        return (
+        <ImageList  className ={'circlef-container'} >
+            <ImageListItem  className={'circlef'}>
+              <img   
+                src={props.icon}
+              />
+            </ImageListItem>
+        </ImageList>
+        )
+        
+    }
 
 export default Circle
